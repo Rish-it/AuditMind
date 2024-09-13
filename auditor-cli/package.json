@@ -1,0 +1,34 @@
+{
+  "name": "auditor-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to audit smart contracts using openai",
+  "main": "index.js",
+
+  "bin": {
+    "audit-cli": "./index.js"
+  },
+
+
+
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "audit",
+    "smart contract",
+    "openai"
+  ],
+  "author": "Rishit Sharma",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "inquirer": "^10.2.2",
+    "openai": "^4.60.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0"
+  }
+}
